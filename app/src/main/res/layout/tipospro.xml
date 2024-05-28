@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tipos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/capucinit"></ImageView>
+
+        <TextView
+            android:id="@+id/tiposProductos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto"></TextView>
+
+        <TextView
+            android:id="@+id/tiposDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Descripcion"></TextView>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="-105dp"
+            android:text="price">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tiposPrecios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="-20dp"
+            android:text="5.0"></TextView>
+
+        <RatingBar
+            android:id="@+id/tiposEstrella"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="5dp"
+            android:rating="5">
+
+        </RatingBar>
+
+        <ImageView
+            android:id="@+id/addCarrito"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+
+            android:src="@drawable/baseline_chevron_right_24"></ImageView>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

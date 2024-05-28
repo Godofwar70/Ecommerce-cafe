@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "829034180091",
+    "firebase_url": "https://proyectocafe-dd678-default-rtdb.firebaseio.com",
+    "project_id": "proyectocafe-dd678",
+    "storage_bucket": "proyectocafe-dd678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829034180091:android:9aa2eef9c711e5381b6f5e",
+        "android_client_info": {
+          "package_name": "com.example.aplicacin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgl9P8YikJM4tOPBzBV7kl9_yalNlY3vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829034180091:android:f002bdff392b276c1b6f5e",
+        "android_client_info": {
+          "package_name": "com.example.proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgl9P8YikJM4tOPBzBV7kl9_yalNlY3vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
